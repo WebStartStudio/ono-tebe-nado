@@ -1,0 +1,52 @@
+.header {
+	width: 1052px;
+	height: 105px;
+	margin: 92px auto 96px;
+	padding: 0 28px;
+	display: flex;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.18px;
+}
+.header__menu {
+	margin-right: 36px;
+}
+.header__menu-list {
+	display: flex;
+	gap: 13px;
+}
+.header__menu-item {
+	text-decoration: underline;
+}
+.header__menu-item_active {
+	text-decoration: none;
+}
+.header__menu-link {
+	color: #000;
+}
+.header__menu-list-marker {
+	display: block;
+	width: 7px;
+	height: 7px;
+}
+
+.header__logo-image {
+	width: 148px;
+	height: 105px;
+}
+.header__kontakts-list {
+	width: 240px;
+	margin-left: auto;
+}
+
+.header__kontakts-item {
+	text-decoration: underline;
+	line-height: 24.3px;
+}
+
+.header__kontakts-item:last-of-type {
+	text-decoration: none;
+}
+
