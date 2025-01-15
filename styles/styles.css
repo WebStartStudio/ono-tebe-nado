@@ -3,7 +3,8 @@
 	height: 105px;
 	margin: 92px auto 96px;
 	padding: 0 28px;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
@@ -11,7 +12,7 @@
 	letter-spacing: 0.18px;
 }
 .header__menu {
-	margin-right: 36px;
+	justify-self: start;
 }
 .header__menu-list {
 	display: flex;
@@ -32,21 +33,25 @@
 	height: 7px;
 }
 
+.header__logo {
+	justify-self: center;
+}
+
 .header__logo-image {
 	width: 148px;
 	height: 105px;
 }
-.header__kontakts-list {
+.header__contacts-list {
 	width: 240px;
-	margin-left: auto;
+	justify-self: end;
 }
 
-.header__kontakts-item {
+.header__contacts-item {
 	text-decoration: underline;
 	line-height: 24.3px;
 }
 
-.header__kontakts-item:last-of-type {
+.header__contacts-item:last-of-type {
 	text-decoration: none;
 }
 
