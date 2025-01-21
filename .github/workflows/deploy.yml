@@ -17,5 +17,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: . # Директория, где находится ваш index.html
+          publish_dir: . # Если index.html и все файлы в корне
           publish_branch: gh-pages
