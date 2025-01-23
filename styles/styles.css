@@ -48,18 +48,25 @@
 	height: 105px;
 }
 
+address {
+	font-style: normal;
+	margin: 0;
+}
+
 .header__contacts-list {
 	width: 240px;
 	justify-self: end;
 }
 
 .header__contacts-item {
-	text-decoration: underline;
-	line-height: 24.3px;
+	line-height: 25px;
+	text-decoration-thickness: 1px;
+  text-decoration-offset: 2px;
+	border-bottom: 1px solid #000;
 }
 
 .header__contacts-item:last-of-type {
-	text-decoration: none;
+	border-bottom: none;
 }
 
 .cover {
